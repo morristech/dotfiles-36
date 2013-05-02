@@ -1,0 +1,7 @@
+[merge]
+	tool = kdiff3
+[user]
+	name = David Pursehouse
+	email = david.pursehouse@gmail.com
+[color]
+	ui=auto
