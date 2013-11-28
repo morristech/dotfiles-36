@@ -5,3 +5,5 @@
 	email = david.pursehouse@gmail.com
 [color]
 	ui=auto
+[core]
+	editor = nano
