@@ -3,3 +3,4 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 export PATH=/usr/local/bin:~/bin:$PATH
+export PS1='\W \$ '
