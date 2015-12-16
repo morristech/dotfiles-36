@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Part of Gerrit Code Review (http://code.google.com/p/gerrit/)
+# Part of Gerrit Code Review (https://www.gerritcodereview.com/)
 #
 # Copyright (C) 2009 The Android Open Source Project
 #
@@ -19,7 +19,7 @@
 
 unset GREP_OPTIONS
 
-CHANGE_ID_AFTER="Bug|Issue"
+CHANGE_ID_AFTER="Bug|Issue|Test"
 MSG="$1"
 
 # Check for, and add if missing, a unique Change-Id
@@ -34,6 +34,12 @@ add_ChangeId() {
 		/^#/d
 	' "$MSG" | git stripspace`
 	if test -z "$clean_message"
+	then
+		return
+	fi
+
+	# Do not add Change-Id to temp commits
+	if echo "$clean_message" | head -1 | grep -q '^\(fixup\|squash\)!'
 	then
 		return
 	fi
