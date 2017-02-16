@@ -21,6 +21,9 @@
 
 [gc]
 	auto = 0
+[http]
+	cookiefile = /Users/dpursehouse/.gitcookies
+	sslverify = false
 [rerere]
 	enabled = true
 [filter "lfs"]
