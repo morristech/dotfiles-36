@@ -7,7 +7,7 @@
 	ui=auto
 [core]
 	editor = nano
-	excludesfile = /Users/david/.gitignore_global
+	excludesfile = /Users/dpursehouse/.gitignore_global
 [init]
 	templatedir = ~/.git_template
 [difftool "sourcetree"]
