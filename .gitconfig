@@ -28,3 +28,11 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+[sendemail]
+	from = David Pursehouse <david.pursehouse@gmail.com>
+	smtpserver = smtp.gmail.com
+	smtpuser = david.pursehouse@gmail.com
+	smtpencryption = tls
+	smtppass = REPLACEME
+	chainreplyto = false
+	smtpserverport = 587
