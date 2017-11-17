@@ -1,3 +1,4 @@
+# requires brew bash-completion to be installed
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi
