@@ -13,3 +13,4 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export XMLLINT_INDENT="    "
+export PATH="/usr/local/opt/nano/bin:$PATH"
