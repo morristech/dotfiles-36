@@ -14,3 +14,5 @@ export LANG=en_US.UTF-8
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export XMLLINT_INDENT="    "
 export PATH="/usr/local/opt/nano/bin:$PATH"
+
+alias google-java-format='/Users/dpursehouse/git/gerrit/tools/format/google-java-format-1.3'
