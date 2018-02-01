@@ -14,3 +14,5 @@ export LANG=en_US.UTF-8
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export XMLLINT_INDENT="    "
 export PATH="/usr/local/opt/nano/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
