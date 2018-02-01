@@ -14,5 +14,10 @@ export LANG=en_US.UTF-8
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export XMLLINT_INDENT="    "
 export PATH="/usr/local/opt/nano/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 alias google-java-format='/Users/dpursehouse/git/gerrit/tools/format/google-java-format-1.3'
