@@ -10,6 +10,10 @@
 	excludesfile = /Users/dpursehouse/.gitignore_global
 [init]
 	templatedir = ~/.git_template
+[merge]
+	renamelimit = 2813
+	ff = false
+	log = 200
 [mergetool "kdiff3"]
 	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
 
