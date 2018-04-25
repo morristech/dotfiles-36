@@ -133,13 +133,13 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>254 339 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 364 620 392 0 0 1440 877 </string>
+	<string>410 363 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 165 606 469 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>183 148 1060 645 0 0 1440 877 </string>
+	<string>106 104 1256 696 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_12FD6C68-BFDD-4EA2-A401-CE5F5C37715B</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -965,7 +965,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-11-17T01:24:52Z</date>
+	<date>2018-04-25T07:30:16Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1012,9 +1012,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.4</string>
+	<string>3.1.5</string>
 </dict>
 </plist>
