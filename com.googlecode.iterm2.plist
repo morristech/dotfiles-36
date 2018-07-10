@@ -139,7 +139,7 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>106 104 1256 696 0 0 1440 877 </string>
+	<string>149 218 1060 645 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_12FD6C68-BFDD-4EA2-A401-CE5F5C37715B</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -965,13 +965,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-04-25T07:30:16Z</date>
+	<date>2018-07-10T05:07:57Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1017,6 +1017,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.5</string>
+	<string>3.1.6</string>
 </dict>
 </plist>
